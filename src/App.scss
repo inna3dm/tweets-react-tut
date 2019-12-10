@@ -1,0 +1,50 @@
+.app {
+  min-height: 100vh;
+  background: cadetblue;
+}
+
+.tweets {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.tweet {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.red {
+  color: red;
+  font-size: 50px;
+}
+
+.movies {
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: indianred;
+}
+
+.movie {
+  margin-bottom: 20px;
+}
+
+.form {
+  input {
+    margin: 0 20px;
+  }
+}
+
+
+
