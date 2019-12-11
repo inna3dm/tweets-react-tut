@@ -16,20 +16,21 @@ function App() {
   ]);
 
   return(
-    <MovieProvider>
-      <div className="app">
-        <div class="tweets">
-          {users.map(user => (
-            <Tweet name={user.name} message={user.message} />
+    <div className="app">
+      <div className="tweets">
+        {users.map(user => (
+          <Tweet name={user.name} message={user.message} />
           ))}
-        </div>
-        <div class="movies">
+      </div>
+
+      <MovieProvider>
+        <div className="movies">
           <Nav />
           <AddMovie />
           <MovieList />
         </div>
-      </div>
-    </MovieProvider>
+      </MovieProvider>
+    </div>
   );
 }
 
